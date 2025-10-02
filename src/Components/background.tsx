@@ -41,7 +41,7 @@ function Background() {
         </div>
         <div className={styles.backgroundContainerSlider}>
           <button className={styles.buttonPlus} onClick={plusImage}>
-            <img src="./public/arrow.png" alt="plusImg" />
+            <img src="/arrow.png" alt="plusImg" />
           </button>
           <div className={styles.backgroundSlider}>
             {visibleBackground.map((image, index) => (
@@ -51,7 +51,7 @@ function Background() {
             ))}
           </div>
           <button className={styles.buttonMinus} onClick={minusImage}>
-            <img src="./public/arrow.png" alt="plusImg" />
+            <img src="/arrow.png" alt="plusImg" />
           </button>
         </div>
       </div>

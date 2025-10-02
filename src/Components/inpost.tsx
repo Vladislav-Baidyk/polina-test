@@ -16,8 +16,8 @@ function Inpost() {
           </p>
         </div>
         <div className={styles.containerImg}>
-          <img src="./public/inpost/inpost_01.png" alt="img 1" />
-          <img src="./public/inpost/inpost_02.png" alt="img 1" />
+          <img src="/inpost/inpost01.png" alt="img 1" />
+          <img src="/inpost/inpost02.png" alt="img 1" />
         </div>
       </div>
     </Fragment>

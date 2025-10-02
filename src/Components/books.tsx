@@ -58,7 +58,7 @@ function Book() {
             <div className="page-content cover">
               <img
                 className={styles.pageSize}
-                src="/book/cover.png"
+                src="/book/Cover.png"
                 alt="bookPage"
               />
             </div>

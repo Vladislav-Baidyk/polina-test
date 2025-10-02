@@ -17,7 +17,7 @@ function Logo() {
           </p>
         </div>
         <div className={styles.logoImg}>
-          <img src="./public/logo/logo_01.png" alt="logo img" />
+          <img src="/logo/logo01.png" alt="logo img" />
         </div>
       </div>
     </Fragment>
