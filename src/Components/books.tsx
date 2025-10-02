@@ -3,7 +3,7 @@ import { Fragment } from "react";
 import HTMLFlipBook from "react-pageflip";
 function Book() {
   const images = [
-    "/book/3 1.jpg",
+    "/book/1.jpg",
     "/book/4.jpg",
     "/book/5.jpg",
     "/book/6.jpg",
@@ -58,7 +58,7 @@ function Book() {
             <div className="page-content cover">
               <img
                 className={styles.pageSize}
-                src="./public/book/cover.png"
+                src="/book/cover.png"
                 alt="bookPage"
               />
             </div>
