@@ -59,7 +59,7 @@ function Book() {
               <img
                 className={styles.pageSize}
                 src="/book/Cover.png"
-                alt="bookPage"
+                alt="cover"
               />
             </div>
           </div>
