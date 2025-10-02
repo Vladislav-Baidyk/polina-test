@@ -56,11 +56,7 @@ function Book() {
         >
           <div className="page">
             <div className="page-content cover">
-              <img
-                className={styles.pageSize}
-                src="/book/Cover.png"
-                alt="cover"
-              />
+              <img className={styles.pageSize} src="/book/9.png" alt="cover" />
             </div>
           </div>
           {images.map((image, index) => (
