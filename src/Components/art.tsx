@@ -10,31 +10,31 @@ function Art() {
 
         <div className={styles.containerPictures}>
           <div className={styles.picture} style={{ flexGrow: 1 }}>
-            <img src="/art/art_04.jpg" alt="art_04" />
+            <img src="/art/art04.jpg" alt="art_04" />
             <p>"MAN" B1 PENCIL</p>
           </div>
           <div className={styles.picture} style={{ flexGrow: 1 }}>
-            <img src="/art/art_05.jpg" alt="art_04" />
+            <img src="/art/art05.jpg" alt="art_04" />
             <p>"GUITAR" B1 PENCIL</p>
           </div>
           <div className={styles.picture} style={{ flexGrow: 1 }}>
-            <img src="/art/art_03.jpg" alt="art_04" />
+            <img src="/art/art03.jpg" alt="art_04" />
             <p>"STILL LIFE" B2 ACRYLIC</p>
           </div>
           <div className={styles.picture} style={{ flexGrow: 1 }}>
-            <img src="/art/art_01.jpg" alt="art_04" />
+            <img src="/art/art01.jpg" alt="art_04" />
             <p>"GIRL" B1 PENCIL"</p>
           </div>
           <div className={styles.picture} style={{ flexGrow: 1 }}>
-            <img src="/art/art_06.jpg" alt="art_04" />
+            <img src="/art/art06.jpg" alt="art_04" />
             <p>"MY CULTURE" B1 ACRYLIC </p>
           </div>
           <div className={styles.picture} style={{ flexGrow: 1 }}>
-            <img src="/art/art_07.jpg" alt="art_04" />
+            <img src="/art/art07.jpg" alt="art_04" />
             <p>"MY FIRST MEMORY" B1 ACRYLIC"</p>
           </div>
           <div className={styles.picture} style={{ flexGrow: 1 }}>
-            <img src="/art/art_02.jpg" alt="art_04" />
+            <img src="/art/art02.jpg" alt="art_04" />
             <p>"WITCH" B1 ACRYLIC"</p>
           </div>
         </div>
