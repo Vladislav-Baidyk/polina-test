@@ -11,19 +11,11 @@
 .contentContainer ul{
     display: flex;
     flex-direction: column;
-    gap:30px;
+    gap:10px;
+    font-size: 30px;
+    font-family:'Futura-Medium', sans-serif;
 }
-.contentContainer ul h1{
-         font-family: "Alan Sans", sans-serif;
-     color: white; 
-     text-shadow: 
-    -2px -2px 0 black,  
-     2px -2px 0 black,
-    -2px  2px 0 black,
-     2px  2px 0 black;
-     letter-spacing: 15px;
-     font-size: 50px;
-}
+
 .contentContainer ul li{
     position: relative;
     display: flex;
@@ -31,6 +23,7 @@
     font-family: "Alan Sans", sans-serif;
     font-size: 25px;
     list-style: none;
+    letter-spacing: 2px;
 }
 .contentContainer ul li::after{
     content: "";

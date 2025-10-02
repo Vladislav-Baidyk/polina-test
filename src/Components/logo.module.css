@@ -10,7 +10,7 @@
     position: relative;
     background-image: url("./backgrounds/black_01.jpg");  
     padding: 50px 150px 150px 150px;
-    gap:200px;
+    gap:150px;
     align-items: center;
 }
 .logoText {
@@ -18,20 +18,20 @@
    width: 30%; 
 }
 .logoText h1{
-    font-family: "Alan Sans", sans-serif;
-    color: white; 
+    font-family:'Futura-Medium', sans-serif;
+    color: black; 
     text-shadow: 
     -2px -2px 0 black,  
     2px -2px 0 black,
     -2px  2px 0 black,
     2px  2px 0 black;
-    letter-spacing: 15px;
+    letter-spacing: 10px;
     font-size: 80px;
 }
 .logoText p {
-    color: aliceblue;
-    font-size: 25px;
-    letter-spacing: 3px;
+    font-family:'Futura-Medium', sans-serif;
+    color: white;
+    font-size: 20px;
 }
 .logoImg{
     height: 80%;
@@ -71,35 +71,36 @@
     align-items: center;
     }
     .logoText h1{
-        font-family: "Alan Sans", sans-serif;
-        color: white; 
-        text-shadow: 
-        -2px -2px 0 black,  
-        2px -2px 0 black,
-        -2px  2px 0 black,
-        2px  2px 0 black;
-        letter-spacing: 15px;
-        font-size: 80px;
+    font-family:'Futura-Medium', sans-serif;
+    color: white; 
+   text-shadow: 
+   -2px -2px 0 black,  
+    2px -2px 0 black,
+    -2px  2px 0 black,
+    2px  2px 0 black;
+    letter-spacing: 15px;
+    font-size: 80px;
     }
     .logoText p {
+    font-family:'Futura-Medium', sans-serif;
     color: aliceblue;
     font-size: 15px;
-    letter-spacing: 3px;
+
 }
     .logoImg{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        height: 80%;
-        width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80%;
+    width: 90%;
     }
     .logoImg img{
-        height: 80%;
-        width: 90%;
-        border-radius: 20px;
-        transition: all 0.7s;
+    height: 80%;
+    width: 90%;
+    border-radius: 20px;
+    transition: all 0.7s;
     }
     .logoImg img:hover{
-        transform: scale(1.1);
+    transform: scale(1.1);
     }
 }

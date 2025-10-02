@@ -3,12 +3,12 @@ import { Fragment } from "react";
 import HTMLFlipBook from "react-pageflip";
 function Book() {
   const images = [
-    "./public/book/3 1.jpg",
-    "./public/book/4.jpg",
-    "./public/book/5.jpg",
-    "./public/book/6.jpg",
-    "./public/book/7.jpg",
-    "./public/book/8.jpg",
+    "/book/3 1.jpg",
+    "/book/4.jpg",
+    "/book/5.jpg",
+    "/book/6.jpg",
+    "/book/7.jpg",
+    "/book/8.jpg",
   ];
   return (
     <Fragment>
@@ -16,14 +16,15 @@ function Book() {
         <div className={styles.bookText}>
           <h1>Foxes and boots</h1>
           <p>
-            “Foxes and Boots is a children’s book entirely written in verse and
+            Foxes and Boots is a children’s book entirely written in verse and
             fully illustrated by me. The story follows foxes in a village
             setting, offering a charming and educational narrative about
             kindness, collaboration, and mutual support. Through playful rhymes
             and detailed illustrations, the book engages young readers while
             conveying an important moral lesson in an accessible and imaginative
-            way.”
+            way.
           </p>
+          <img src="/book/foxes.png" alt="foxes" />
         </div>{" "}
         <HTMLFlipBook
           width={370}
@@ -70,6 +71,7 @@ function Book() {
             </div>
           ))}
         </HTMLFlipBook>
+        <div className={styles.justPadding}></div>
       </div>
     </Fragment>
   );

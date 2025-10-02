@@ -14,18 +14,20 @@
     align-items: center;
     justify-content: center;
     width: 90%;
-    gap:100px;
+    gap:50px;
 }
 .inpostText h1{
-     font-family: "Alan Sans", sans-serif;
-     color: white; 
-     text-shadow: 
-    -2px -2px 0 black,  
-     2px -2px 0 black,
-    -2px  2px 0 black,
-     2px  2px 0 black;
-     letter-spacing: 15px;
+    font-family:'Futura-Medium', sans-serif;
+     color: black; 
+     letter-spacing: 10px;
      font-size: 80px;
+}
+.inpostText p{
+    position: relative;
+    top:9px;
+    font-family:'Futura-Medium', sans-serif;
+    color: black; 
+    width: 47%;
 }
 .containerImg{
     display: flex;
@@ -42,16 +44,22 @@
     scale: 1.1;
 }
 @media screen and (max-width:480px) {
+    
     .inpost{
-    gap:20px;
-    padding-top: 30px;
+    height: 100vh;
+    padding-top: 50px;
 }
     .inpostText{
+    position: relative;
+    flex-direction: column  ;
     gap:10px;
 }
     .inpostText h1{
      font-size: 30px;
 }
+    .inpostText p{
+        width: 80vw;
+    }
     .containerImg img{
         width: 80vw;
         transition: all 0.8s;

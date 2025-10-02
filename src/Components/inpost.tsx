@@ -7,10 +7,12 @@ function Inpost() {
         <div className={styles.inpostText}>
           <h1>Inpost</h1>
           <p>
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has been the industry's standard dummy text
-            ever since the 1500s, when an unknown printer took a galley of type
-            and scrambled it to make a type specimen book.
+            InPost Local Parcel Locker Competition Created for the InPost
+            competition, this project explores the design of a local parcel
+            locker based on the characteristics of the participant’s own
+            neighborhood. The concept combines functionality with
+            community-focused design, reflecting the unique identity and needs
+            of the area.
           </p>
         </div>
         <div className={styles.containerImg}>

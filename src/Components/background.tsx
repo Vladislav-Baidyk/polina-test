@@ -30,13 +30,13 @@ function Background() {
           <h1>Background</h1>
 
           <p>
-            “I designed background art for IEN, an animation studio from Ukraine
+            I designed background art for IEN, an animation studio from Ukraine
             that produces feature-length folklore-inspired films for both
             children and adults. Each background was created by me under the
             guidance of the studio’s specialists, ensuring visual consistency
             with the film’s artistic direction while allowing space for my
             individual creative input. The work highlights attention to detail,
-            atmosphere, and storytelling through environment design.”
+            atmosphere, and storytelling through environment design.
           </p>
         </div>
         <div className={styles.backgroundContainerSlider}>

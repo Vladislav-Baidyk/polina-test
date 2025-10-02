@@ -59,7 +59,7 @@ function Alphabet() {
           </div>
           <div className={styles.carouselLettes}>
             <button className={styles.button} onClick={ChangeMinus}>
-              <img src="./public/arrow.png" />
+              <img src="/arrow.png" />
             </button>
             {visibleImages.map((image, index) => (
               <div
@@ -72,7 +72,7 @@ function Alphabet() {
               </div>
             ))}{" "}
             <button className={styles.buttonPlus} onClick={ChangePlus}>
-              <img src="./public/arrow.png" />
+              <img src="/arrow.png" />
             </button>
           </div>
         </div>
