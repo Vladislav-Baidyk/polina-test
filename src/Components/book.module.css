@@ -16,7 +16,6 @@
     color: white; 
 }
 .bookText h1{
-    position: relative;
     font-family:'Futura-Medium', sans-serif;
     color: white; 
     font-size: 50px;
@@ -52,6 +51,11 @@
     }
     .bookText img{
         display: none;
+    }
+    .bookText h1{
+        margin-top: 100px;
+        font-size: 28px; 
+        height: auto;    
     }
 
 }

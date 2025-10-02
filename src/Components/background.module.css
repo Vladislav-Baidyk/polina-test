@@ -97,6 +97,7 @@
     display: flex;
     flex-direction: column;
     width: 100%;
+    position: relative;
     }
     .backgroundText h1{
     font-family:'Futura-Medium', sans-serif;
@@ -108,14 +109,14 @@
     2px  2px 0 black;
     letter-spacing: 15px;
     font-size: 30px;
-    position: relative;
-    top:10%;
+    position: absolute;
+    top:15%;
 }
     .backgroundText p{
     font-family:'Futura-Medium', sans-serif;
-     padding:60px;
+    margin-top: 150px;
     font-size: 20px;
-    width: 100%;
+    width: 80%;
     }
     .backgroundSlider{
     height: 50%;
