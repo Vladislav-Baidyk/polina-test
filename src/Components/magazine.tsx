@@ -60,7 +60,7 @@ function Magazine() {
             <div className="page-content cover">
               <img
                 className={styles.pageSize}
-                src="./magazine/magazine_02.png"
+                src="/magazine/magazine_02.png"
                 alt="bookPage"
               />
             </div>

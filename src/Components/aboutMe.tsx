@@ -4,7 +4,7 @@ function AboutMe() {
   return (
     <Fragment>
       <div id="aboutMe" className={styles.containerAboutMe}>
-        <img src="/aboutMe/polina_01.jpg" alt="about me" />
+        <img src="/aboutMe/polina01.jpg" alt="about me" />
       </div>
     </Fragment>
   );
