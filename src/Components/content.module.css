@@ -1,7 +1,7 @@
 .contentContainer{
     min-height: 100vh;
     width: 100%;
-    background-image: url("./backgrounds/white_01.jpg");
+    background-image: url("/backgrounds/white01.jpg");
     overflow-x: hidden ;
     display: flex;
     justify-content: center;

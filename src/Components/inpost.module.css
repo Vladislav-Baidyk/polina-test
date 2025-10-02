@@ -3,7 +3,7 @@
     width: 100vw;
     min-height: 100vh;
     flex-direction: column;
-    background-image: url("./backgrounds/white_01.jpg");  
+    background-image: url("/backgrounds/white01.jpg");  
     overflow-x: hidden;
     justify-content: center;
     align-items: center;

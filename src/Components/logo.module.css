@@ -8,7 +8,7 @@
     justify-content: space-center;
     overflow: hidden;
     position: relative;
-    background-image: url("./backgrounds/black_01.jpg");  
+    background-image: url("/backgrounds/black01.jpg");  
     padding: 50px 150px 150px 150px;
     gap:150px;
     align-items: center;

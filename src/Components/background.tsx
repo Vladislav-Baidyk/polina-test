@@ -3,9 +3,9 @@ import { useState } from "react";
 import styles from "./background.module.css";
 function Background() {
   const images = [
-    "./public/background/background01.jpg",
-    "./public/background/background03.jpg",
-    "./public/background/background02.png",
+    "/background/background01.jpg",
+    "/background/background03.jpg",
+    "/background/background02.png",
   ];
   const [currentImg, setCurrentImg] = useState(0);
   const visibleBakc = () => {
