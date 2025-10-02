@@ -7,7 +7,7 @@ function Main() {
       <div id="main" className={styles.portfolioContainer}>
         <img
           className={styles.imagePort}
-          src="./public/PORTFOLIO 1.jpg"
+          src="/PORTFOLIO1.jpg"
           alt="portfolio image"
         />
         <h1 className={styles.name}>Polina Tkachuk</h1>

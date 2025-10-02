@@ -41,7 +41,7 @@ function Plakat() {
         </div>
         <div className={styles.plakatContainerSlider}>
           <button className={styles.buttonMinus} onClick={minusImage}>
-            <img src="./public/arrow.png" alt="arrow img" />
+            <img src="/arrow.png" alt="arrow img" />
           </button>
 
           {visibleImg.map((item, id) => (
@@ -68,7 +68,7 @@ function Plakat() {
             </div>
           ))}
           <button className={styles.buttonPlus} onClick={plusImage}>
-            <img src="./public/arrow.png" alt="arrow img" />
+            <img src="/arrow.png" alt="arrow img" />
           </button>
         </div>
       </div>
