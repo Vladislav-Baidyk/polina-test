@@ -1,35 +1,35 @@
 [{
     "id":1,
-    "image" : "./public/art/art01.jpg",
+    "image" : "/art/art01.jpg",
     "text":"text for image 01"
 }
 ,
 {
      "id":2,
-    "image" : "./public/art/art02.jpg",
+    "image" : "/art/art02.jpg",
     "text":"text for image 02"
 }
 ,
 {
      "id":3,
-    "image" : "./public/art/art03.jpg",
+    "image" : "/art/art03.jpg",
     "text":"text for image 03"
 }
 ,
 {
      "id":4,
-    "image" : "./public/art/art04.jpg",
+    "image" : "/art/art04.jpg",
     "text":"text for image 04"
 }
 ,
 {
      "id":5,
-    "image" : "./public/art/art05.jpg",
+    "image" : "/art/art05.jpg",
     "text":"text for image 05"
 }
 ,
 {
      "id":6,
-    "image" : "./public/art/art06.jpg",
+    "image" : "/art/art06.jpg",
     "text":"text for image 06"
 }]
