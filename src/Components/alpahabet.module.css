@@ -1,0 +1,149 @@
+.alpahabetContainer{
+    display: flex;
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    flex-direction: column;
+    /*background: radial-gradient(circle,rgba(242, 233, 237, 1) 0%, rgba(200, 210, 227, 1) 100%);*/
+    background-image: url("./backgrounds/white_01.jpg");
+    overflow-x: hidden;
+
+    
+}
+.alpahabetContainerContent{
+    display: flex;
+    flex-direction: column;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    gap:20px;
+}
+.alpahabetText{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    left:10%;
+    font-family:'Futura-Medium', sans-serif;
+    width: 80%;
+}
+.alpahabetText h1{
+    position: relative;
+    font-family:'Futura-Medium', sans-serif;
+    color: white; 
+    text-shadow: 
+    -2px -2px 0 black,  
+    2px -2px 0 black,
+    -2px  2px 0 black,
+    2px  2px 0 black;
+    letter-spacing: 15px;
+    font-size: 50px;
+     
+}
+.carouselLettes{
+
+    display: flex;
+    max-width: 100%;
+    gap:20px;
+    align-items: center;
+    justify-content: center;
+}
+.button {
+    border: none;
+    height: 40px;
+    background: none;
+
+}
+.button img{
+    height: 40px;
+    width: 40px;
+    transform: rotate(90deg);
+    opacity: 0.1;
+}
+.buttonPlus{
+    border: none;
+    height: 40px;
+    background: none;
+}
+.buttonPlus img{
+    height: 40px;
+    width: 40px;
+    transform: rotate(-90deg);
+    opacity: 0.1    ;
+}
+.carouselItem{
+    height: 300px;
+    width: 200px;
+}
+.carouselItem img{
+    height: 300px;
+    width: 200px;
+    border-radius: 20px;
+}
+.centerItem{
+    width: 350px;
+    height: 500px;
+}
+.centerItem img{
+    width: 350px;
+    height: 500px;  
+     border-radius: 20px;     
+}
+@media screen and (max-width:480px) {
+ .alpahabetContainer{
+        width: 100vw;
+        min-height: 60vh;
+        overflow-x: hidden;
+        
+    }
+    .alpahabetText{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        left: 0; 
+        text-align: center;
+        padding: 0 20px;
+    } 
+    .alpahabetText h1{
+        font-size: 24px;
+        letter-spacing: 5px; 
+        word-wrap: break-word;
+    }
+    .carouselLettes{
+        max-width: 100vw;
+        gap: 10px;
+        padding: 0 10px; 
+        flex-wrap: nowrap;
+        overflow-x: auto; 
+    }
+    .carouselItem{
+        height: 150px;
+        width: 100px;
+        flex-shrink: 0;
+    }
+    .carouselItem img{
+        height: 150px;
+        width: 100px;
+    }
+    
+    .centerItem{
+        width: 140px; 
+        height: 200px;
+    }
+    .centerItem img{
+        width: 140px;
+        height: 200px;  
+    }
+     .carouselLettes::-webkit-scrollbar {
+        display: none;
+    }
+    .button{
+        position: absolute  ;
+        left:30%;
+        top: 80%;
+    }
+    .buttonPlus{
+    position: absolute  ;
+    left:56%;
+    top: 80%;
+}
+    
+}

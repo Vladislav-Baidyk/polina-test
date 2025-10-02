@@ -1,0 +1,110 @@
+.artContainer{    
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    position: relative;
+    background-image: url("./backgrounds/black_01.jpg");  
+}
+.artText{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.artText h1{
+    font-family: "Alan Sans", sans-serif;
+     color: white; 
+     text-shadow: 
+    -2px -2px 0 black,  
+     2px -2px 0 black,
+    -2px  2px 0 black,
+     2px  2px 0 black;
+     letter-spacing: 15px;
+     font-size: 80px;
+}
+.containerPictures{
+    display: flex;
+    flex-direction: row;   
+    justify-content: center;
+    align-items: end;
+    width: 80%;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.containerPictures img {
+    height: 240px;
+    border-radius: 20px;
+    position: relative;
+    display: block;
+}
+.containerPictures img::after{
+    content: "text";
+    position: absolute;
+    top:40%;
+    left:0;
+    right: 0;
+    bottom:0;
+    font-size: 20px;
+    color: white;
+}
+.containerPictures img:nth-child(4){
+    height: 350px;
+}
+.containerPictures img:nth-child(5){
+    height: 350px;
+}
+
+.containerPictures img:nth-child(6){
+    height: 350px;
+}
+.containerPictures img:nth-child(7){
+    height: 350px;
+}
+
+
+
+@media screen and (max-width:480px) {
+    .artContainer{    
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    position: relative;
+}
+.artText h1{
+    font-size: 40px;
+}
+.containerPictures img:nth-child(1){
+    order: 7;
+}
+.containerPictures img:nth-child(2){
+    order: 6;
+}
+.containerPictures img:nth-child(3){
+    height: 500px;
+}
+.containerPictures img:nth-child(4){
+    height: 500px;
+}
+.containerPictures img:nth-child(5){
+    height: 500px;
+}
+.containerPictures img:nth-child(6){
+    order: 8;
+    height: 240px;
+}
+.containerPictures img:nth-child(7){
+    height: 500px;
+}
+}

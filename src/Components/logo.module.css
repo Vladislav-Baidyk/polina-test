@@ -1,0 +1,105 @@
+.logo{
+     padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    height: 100vh;
+    justify-content: space-center;
+    overflow: hidden;
+    position: relative;
+    background-image: url("./backgrounds/black_01.jpg");  
+    padding: 50px 150px 150px 150px;
+    gap:200px;
+    align-items: center;
+}
+.logoText {
+   height: 100%;
+   width: 30%; 
+}
+.logoText h1{
+    font-family: "Alan Sans", sans-serif;
+    color: white; 
+    text-shadow: 
+    -2px -2px 0 black,  
+    2px -2px 0 black,
+    -2px  2px 0 black,
+    2px  2px 0 black;
+    letter-spacing: 15px;
+    font-size: 80px;
+}
+.logoText p {
+    color: aliceblue;
+    font-size: 25px;
+    letter-spacing: 3px;
+}
+.logoImg{
+    height: 80%;
+    width: 50%;
+    
+}
+.logoImg img{
+    height: 100%;
+    width: 120%;
+    border-radius: 20px;
+    transition: all 0.7s;
+}
+.logoImg img:hover{
+         transform: scale(1.1);
+}
+@media screen and (max-width:480px) {
+    .logo{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    justify-content:center;
+    overflow: hidden;
+    position: relative;
+    align-items: center;
+    gap:0px;
+}
+
+    .logoText {
+    height: 100%;
+    width: 80%; 
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    }
+    .logoText h1{
+        font-family: "Alan Sans", sans-serif;
+        color: white; 
+        text-shadow: 
+        -2px -2px 0 black,  
+        2px -2px 0 black,
+        -2px  2px 0 black,
+        2px  2px 0 black;
+        letter-spacing: 15px;
+        font-size: 80px;
+    }
+    .logoText p {
+    color: aliceblue;
+    font-size: 15px;
+    letter-spacing: 3px;
+}
+    .logoImg{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 80%;
+        width: 90%;
+    }
+    .logoImg img{
+        height: 80%;
+        width: 90%;
+        border-radius: 20px;
+        transition: all 0.7s;
+    }
+    .logoImg img:hover{
+        transform: scale(1.1);
+    }
+}

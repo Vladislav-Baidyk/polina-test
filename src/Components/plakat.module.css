@@ -1,0 +1,170 @@
+.plakat{    
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    position: relative;
+    background-image: url("./backgrounds/white_01.jpg");
+}
+.plakatText h1{
+    font-family: "Alan Sans", sans-serif;
+     color: white; 
+     text-shadow: 
+    -2px -2px 0 black,  
+     2px -2px 0 black,
+    -2px  2px 0 black,
+     2px  2px 0 black;
+     letter-spacing: 15px;
+     font-size: 80px;
+}
+.plakatContainerSlider{
+    height: 80%;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:30px;
+
+}
+.slider{
+    height: 60%;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    
+}
+.carouselItem{
+    height: 128%;
+    width: 90%;
+    border-radius: 20px;
+}
+.centerItem{
+    height: 148%;
+    width:120%;
+    border-radius: 20px;
+    border: 1px solid black;
+}
+.textImageItem {
+    border-radius: 20px;
+    border: 1px solid black;
+    width: 140%;
+    height: 148%;
+    text-align: center;
+    padding: 45px;
+    font-family:'Futura-Medium', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.buttonPlus{
+    border: none;
+    height: 40px;
+    background: none;
+}
+.buttonPlus img{
+    height: 40px;
+    width: 40px;
+    transform: rotate(270deg);
+    opacity: 0.4;
+}
+.buttonMinus{
+    border: none;
+    height: 40px;
+    background: none;
+}
+.buttonMinus img{
+    height: 40px;
+    width: 40px;
+    transform: rotate(90deg);
+    opacity: 0.4;
+}
+.textImage{
+    border-radius: 20px;
+    border: 1px solid black;
+    width: 90%;
+    height: 128%;
+    text-align: center;
+    padding: 45px;
+    font-family:'Futura-Medium', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@media screen and (max-width:480px) {
+    .plakat{    
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 80vh;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    position: relative;
+    background: #1929b5;
+    background: radial-gradient(circle,rgba(242, 233, 237, 1) 0%, rgba(200, 210, 227, 1) 100%);
+}
+    .plakatContainerSlider{
+    height: 80%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:0px;
+
+}
+    .slider{
+    height: 60%;
+    width: 100%;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+}
+    .carouselItem{
+    height: 200px;
+    width: 240px;
+    margin: 20px;
+    border-radius: 20px;
+}
+.centerItem{
+    height:380px;
+    width: 280px;
+    margin: 20px;
+    border-radius: 20px;
+}
+.textImage{
+    height: 200px;
+    width: 140px;
+    margin: 10px;
+    border-radius: 20px;
+    font-size: 12px;
+}
+.textImageItem {
+    width: 280px;
+    height: 300px;
+}
+    .buttonPlus{
+        position:absolute;
+        border: none;
+        height: 40px;
+        top:90%;
+        left:55%;
+        background: none;
+}
+    .buttonMinus{
+        position:absolute ;
+        border: none;
+        height: 40px;
+        top:90%;
+        left:30%;
+        background: none;
+    }
+}

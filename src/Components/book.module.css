@@ -1,0 +1,45 @@
+.book{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    height: 100vh;
+    justify-content: space-between;
+    padding: 100px;
+    position: relative;
+    background-image: url("./backgrounds/black_01.jpg");
+}
+.bookText{
+    width: 80%;
+    font-family: 'Futura-Medium', sans-serif;
+    color: white; 
+}
+.bookText h1{
+    position: relative;
+    font-family:'Futura-Medium', sans-serif;
+    color: white; 
+    text-shadow: 
+    -2px -2px 0 black,  
+    2px -2px 0 black,
+    -2px  2px 0 black,
+    2px  2px 0 black;
+    letter-spacing: 15px;
+    font-size: 50px;
+}
+.bookText p{
+    letter-spacing: 2px;
+}
+.pageSize{
+    height: 500px;
+    width: 370px;
+}
+@media screen and (max-width:480px) {
+    .book{
+        justify-content: center;
+        align-items: center;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+    }
+}

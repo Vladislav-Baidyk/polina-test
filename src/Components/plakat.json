@@ -1,0 +1,23 @@
+[{
+    "id":1,
+    "image":"./public/plakat/plakat_01.jpg",
+    "text":"“Hate is a Waste of Time is a poster created for the UNIQA competition. The design explores the contrast and tension between red and blue, using color symbolism to highlight the core"
+}
+,
+{
+        "id":2,
+    "image":"./public/plakat/plakat_02.png",
+    "text":"Zakopane Poster .A simple, clean design created for the Zakopane city competition to attract tourists by showcasing the city’s natural beauty and cultural charm."
+}
+,
+{
+        "id":3,
+    "image":"./public/plakat/plakat_03.jpg",
+    "text":"“A poster designed for a student film about spies, featuring selected stills from the movie. The composition emphasizes intrigue and suspense while visually reflecting the film’s narrative and atmosphere.”"
+}
+,
+{
+        "id":4,
+    "image":"./public/plakat/plakat_04.jpg",
+    "text":"“A poster designed for a student film about spies, featuring selected stills from the movie. The composition emphasizes intrigue and suspense while visually reflecting the film’s narrative and atmosphere.”"
+}]
