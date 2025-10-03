@@ -33,20 +33,26 @@ function Content() {
           <li onClick={() => scrollToSection("magazine")}>
             Magazine<span>P.6</span>
           </li>
+          <li onClick={() => scrollToSection("buklet")}>
+            Buklet<span>P.7</span>
+          </li>
           <li onClick={() => scrollToSection("bakcground")}>
-            Background<span>P.7</span>
+            Background<span>P.8</span>
           </li>
           <li onClick={() => scrollToSection("plakat")}>
-            Plakaty<span>P.8</span>
+            Plakaty<span>P.9</span>
           </li>
           <li onClick={() => scrollToSection("logo")}>
-            Logo<span>P.9</span>
+            Logo<span>P.10</span>
           </li>
           <li onClick={() => scrollToSection("inpost")}>
-            Inpost<span>P.10</span>
+            Inpost<span>P.11</span>
           </li>
           <li onClick={() => scrollToSection("art")}>
-            Art 2025<span>P.11</span>
+            Art 2025<span>P.12</span>
+          </li>
+          <li onClick={() => scrollToSection("art")}>
+            Art 2025<span>P.12</span>
           </li>
         </ul>
       </div>

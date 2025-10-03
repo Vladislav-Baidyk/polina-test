@@ -11,6 +11,8 @@ import Logo from "./Components/logo";
 import Inpost from "./Components/inpost";
 import Art from "./Components/art";
 import AboutMe from "./Components/aboutMe";
+import Buklet from "./Components/buklet";
+import Contact from "./Components/contact";
 function App() {
   return (
     <Fragment>
@@ -20,11 +22,13 @@ function App() {
       <Alphabet />
       <Book />
       <Magazine />
+      <Buklet />
       <Background />
       <Plakat />
       <Logo />
       <Inpost />
       <Art />
+      <Contact />
     </Fragment>
   );
 }
