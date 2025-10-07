@@ -19,12 +19,7 @@
 }
 .logoText h1{
     font-family:'Futura-Medium', sans-serif;
-    color: black; 
-    text-shadow: 
-    -2px -2px 0 black,  
-    2px -2px 0 black,
-    -2px  2px 0 black,
-    2px  2px 0 black;
+    color: white;
     letter-spacing: 10px;
     font-size: 80px;
 }
