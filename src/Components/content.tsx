@@ -28,7 +28,7 @@ function Content() {
             Alphabet<span>P.4</span>
           </li>
           <li onClick={() => scrollToSection("books")}>
-            Fox and Boots<span>P.5</span>
+            Foxes and Boots<span>P.5</span>
           </li>
           <li onClick={() => scrollToSection("magazine")}>
             Magazine<span>P.6</span>
