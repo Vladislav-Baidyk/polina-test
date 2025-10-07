@@ -28,19 +28,19 @@ function Content() {
             Alphabet<span>P.4</span>
           </li>
           <li onClick={() => scrollToSection("books")}>
-            Fox and Books<span>P.5</span>
+            Fox and Boots<span>P.5</span>
           </li>
           <li onClick={() => scrollToSection("magazine")}>
             Magazine<span>P.6</span>
           </li>
           <li onClick={() => scrollToSection("buklet")}>
-            Buklet<span>P.7</span>
+            Brochure<span>P.7</span>
           </li>
           <li onClick={() => scrollToSection("bakcground")}>
             Background<span>P.8</span>
           </li>
           <li onClick={() => scrollToSection("plakat")}>
-            Plakaty<span>P.9</span>
+            Posters<span>P.9</span>
           </li>
           <li onClick={() => scrollToSection("logo")}>
             Logo<span>P.10</span>
