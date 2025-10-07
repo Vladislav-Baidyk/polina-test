@@ -51,9 +51,6 @@ function Content() {
           <li onClick={() => scrollToSection("art")}>
             Art 2025<span>P.12</span>
           </li>
-          <li onClick={() => scrollToSection("art")}>
-            Art 2025<span>P.12</span>
-          </li>
         </ul>
       </div>
     </Fragment>
